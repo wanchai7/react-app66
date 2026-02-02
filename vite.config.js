@@ -4,7 +4,8 @@ import { defineConfig } from 'vite'
 import react from `@vitejs/plugin-react`
 
 export default defineConfig({
-  base: '/react-app66/',
+
+  base: '/react-app66/', //ชื่อต้องตรงกับชื่อ repo
   plugins: [react()],
   resolve: {
     alias: {
